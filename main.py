@@ -29,11 +29,11 @@ sys.modules['modules.ban'] = ban
 
 
 load_dotenv()
-TOKEN = os.getenv('DISCORD_TOKEN')
+TOKEN = os.getenv('ODM0ODA5OTQyNzg3NjIwOTE0.YIGTWA.DVW2nB8VV-yR-c-q_nwo-B5oLXg')
 # test guild
-# DISCORD_MAIN_GUILD_ID = 769915335968423997
+# DISCORD_MAIN_GUILD_ID = 834809942787620914
 # real guild
-DISCORD_MAIN_GUILD_ID = 732326859039178882
+DISCORD_MAIN_GUILD_ID = 834809942787620914
 intents = discord.Intents.default()
 intents.members = True
 BOT: Bot = commands.Bot(command_prefix='!', case_insensitive=True, intents=intents)
